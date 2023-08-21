@@ -1,0 +1,62 @@
+/* styles.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-item {
+  margin: 0;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+/* home page */
+
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.home-page {
+  height: 100vh;
+  background-image: url('assets/backgroundHome.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.home-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.home-page p {
+  font-size: 1.2rem;
+}

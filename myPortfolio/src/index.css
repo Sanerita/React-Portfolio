@@ -4,8 +4,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #013751;
   color: #fff;
+  
  
 }
 
@@ -127,15 +128,19 @@
 .about-right p{
   padding: 1.5rem;
   flex: 1;
-  background: #355C7D;
+  background: #013751;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
   flex-direction: column;
-  font-size: 28px;
-  font-weight: 400;
+  /* font-size: 28px; */
+  /* font-weight: 400; */
   line-height: normal;
+  color: #fff;
+  font-family: "Audiowide-Regular", Helvetica;
+font-size: 24px;
+font-weight: 400;
   
 }
 

@@ -7,3 +7,4 @@ import './index.css';
 
 
 ReactDOM.render(<Navbar />, document.getElementById('root'));
+ReactDOM.render(<HomePage />, document.getElementById('root'));

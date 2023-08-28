@@ -1,13 +1,12 @@
-// Navbar.js
 import React from 'react';
+import './mediaqueries.css';
 
 const Navbar = () => {
   return (
-    
     <nav className="navbar">
       <div className="navbar-brand">
         <a href="/" className="navbar-logo">
-         S|SILEKU
+        S|SILEKU
         </a>
       </div>
       <ul className="navbar-menu">
@@ -20,17 +19,16 @@ const Navbar = () => {
           <a href="/about" className="navbar-link">
             About me
           </a>
-          </li>
-          <li className="navbar-item">
-          <a href="/contact" className="navbar-link">
+        </li>
+        <li className="navbar-item">
+          <a href="/Experience" className="navbar-link">
             Experience
           </a>
         </li>
         <li className="navbar-item">
-          <a href="/contact" className="navbar-link">
+          <a href="/Projects" className="navbar-link">
             Projects
           </a>
-        
         </li>
         <li className="navbar-item">
           <a href="/contact" className="navbar-link">
@@ -39,7 +37,6 @@ const Navbar = () => {
         </li>
       </ul>
     </nav>
-    
   );
 };
 

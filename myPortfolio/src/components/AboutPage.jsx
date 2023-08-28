@@ -1,6 +1,7 @@
-// AboutPage.js
 import React from 'react';
+import './mediaqueries.css';
 import UntitledDesign from '../assets/UntitledDesign.png'
+
 
 const AboutPage = () => {
     return (
@@ -12,7 +13,7 @@ const AboutPage = () => {
                         <img
                             src={UntitledDesign}
                             alt="Profile picture"
-                            class="about-pic"
+                            className="about-pic"
                         />
                         <button className="about-button">Learn More</button>
                     </div>

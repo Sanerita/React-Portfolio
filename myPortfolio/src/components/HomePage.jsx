@@ -1,5 +1,5 @@
-
 import React from 'react';
+import './mediaqueries.css';
 
 const HomePage = () => {
   return (

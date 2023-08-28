@@ -1,22 +1,23 @@
 import React from 'react';
+import './mediaqueries.css';
 
 const Experience = () => {
   return (
     <div className="my-experience">
       <h2>EXPERIENCE</h2>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
+      <div className="experience-details-container">
+        <div className="about-containers">
+          <div className="details-container">
+            <h3 className="experience-sub-title">Frontend Development</h3>
+            <div className="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
+                  <h4>HTML</h4>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -24,10 +25,10 @@ const Experience = () => {
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
+                  <h4>CSS</h4>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -35,10 +36,10 @@ const Experience = () => {
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
+                  <h4>SASS</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -46,10 +47,10 @@ const Experience = () => {
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
-                  <h3>React</h3>
+                  <h4>React</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -57,10 +58,10 @@ const Experience = () => {
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
+                  <h4>JavaScript</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -69,27 +70,27 @@ const Experience = () => {
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
-                  <h3>Wordpress</h3>
+                  <h4>Wordpress</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
               
             </div>
           </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Backend Development</h2>
-            <div class="article-container">
+          <div className="details-container">
+            <h3 className="experience-sub-title">Backend Development</h3>
+            <div className="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
+                  <h4>JavaScript</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -97,10 +98,10 @@ const Experience = () => {
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
-                  <h3>Java</h3>
+                  <h4>Java</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -108,10 +109,10 @@ const Experience = () => {
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
-                  <h3>SQL</h3>
+                  <h4>SQL</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -119,10 +120,10 @@ const Experience = () => {
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
-                  <h3>Node JS</h3>
+                  <h4>Node JS</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -130,10 +131,10 @@ const Experience = () => {
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
-                  <h3>Python</h3>
+                  <h4>Python</h4>
                   <p>beginer</p>
                 </div>
               </article>
@@ -142,10 +143,10 @@ const Experience = () => {
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
-                  <h3>Git</h3>
+                  <h4>Git</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
